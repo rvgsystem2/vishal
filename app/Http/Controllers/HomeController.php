@@ -30,4 +30,8 @@ class HomeController extends Controller
     public function servicedetail(){
         return view('front.servicedetail');
     }
+
+    public function in() {
+     return "hello";
+    }
 }
