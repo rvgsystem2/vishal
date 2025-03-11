@@ -6,9 +6,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('front.index');
 // });
-Route::get('/text',function () {
-    return "y89i00p";
-});
+
 Route::get('/in',[HomeController::class,'in']);
 // Route::get('index', [HomeController::class, 'index'])->name('index');
 Route::get('/', [HomeController::class, 'index'])->name('index');
